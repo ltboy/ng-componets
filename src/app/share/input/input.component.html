@@ -1,0 +1,2 @@
+<input #input type="text" name="test" [value]="_value" (blur)='onTouched()'
+  (compositionstart)='handleCompositionstart()' (compositionend)='handleCompositionend($event.target.value)'  (input)='hanleInput($event.target.value)'/>
